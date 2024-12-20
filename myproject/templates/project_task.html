@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+</head>
+<body>
+    <ul>
+        {% for task in tasks %}
+            <li>
+                <strong>{{ task.title }}</strong> (Priority: {{ task.priority }})
+                <p>Description: {{ task.description|default:"No description available." }}</p>
+            </li>
+        {% empty %}
+            <li>No tasks available for this project.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
