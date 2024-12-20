@@ -1,4 +1,4 @@
-Batch - CBI-023 \
+Batch: CBI-023 \
 Name: Md Najmus Sakib Rafi \
 ID: C221060 \
 Mail: sakibrafi2001@gmail.com \
